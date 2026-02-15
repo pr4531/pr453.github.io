@@ -48,10 +48,29 @@ html {
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg-color);
+    /* Light Mode Background */
+    background-color: #f8f9fa;
+    background-image:
+        radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 0.02) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0.02) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0.02) 0, transparent 50%),
+        radial-gradient(at 80% 50%, hsla(242, 100%, 70%, 0.05) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 0.1) 0px, transparent 50%);
+    background-attachment: fixed;
     color: var(--text-primary);
     line-height: 1.6;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Background */
+body.dark-mode {
+    --bg-color: #0f172a;
+    background-color: #0f172a;
+    background-image:
+        radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 0.3) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0.15) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0.15) 0, transparent 50%);
+    background-attachment: fixed;
 }
 
 h1,
