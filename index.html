@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar | Java Backend Developer</title>
+    <meta name="description"
+        content="Portfolio of Prince Kumar, a Java Backend Developer specializing in scalable systems using Java and Spring Boot.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">PK.</a>
+            <nav id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-name">Prince Kumar</h1>
+                    <h2 class="hero-role">Java Backend Developer</h2>
+                    <p class="hero-tagline">Building scalable and secure backend systems using Java and Spring Boot.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                        <a href="#contact" class="btn btn-text">Contact Me <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/pr4531" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prince-kumar-4634122aa" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:pr4531926@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Geometric coding pattern or abstract shape can go here, using CSS or SVG -->
+                    <div class="code-block-visual">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+    <span class="keyword">String</span> name = <span class="string">"Prince Kumar"</span>;
+    <span class="keyword">String</span> role = <span class="string">"Backend Dev"</span>;
+    
+    <span class="keyword">void</span> <span class="function">buildSystems</span>() {
+        System.out.println(<span class="string">"Scalable & Secure"</span>);
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll Down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container about-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a passionate <strong>Java Backend Developer</strong> with strong fundamentals in
+                            <strong>Core Java, OOP, Spring Boot, RESTful APIs, MySQL, and JPA/Hibernate</strong>.
+                        </p>
+                        <p>
+                            With a problem-solving mindset, I have solved <strong>150+ LeetCode problems</strong>,
+                            demonstrating solid proficiency in data structures and algorithms.
+                        </p>
+                        <p>
+                            I am dedicated to building scalable, clean, and maintainable backend systems and am
+                            currently
+                            seeking <strong>Backend / Java Developer Intern roles</strong> where I can contribute and
+                            grow.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">150+</span>
+                                <span class="stat-label">LeetCode Solved</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Major Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">Java</span>
+                                <span class="stat-label">Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Core Java</span>
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Collections</span>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">Spring MVC</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">JPA / Hibernate</span>
+                            <span class="skill-tag">Spring Security</span>
+                            <span class="skill-tag">JWT</span>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Database</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS EC2</span>
+                            <span class="skill-tag">AWS S3</span>
+                            <span class="skill-tag">AWS IAM</span>
+                            <span class="skill-tag">Docker (Basic)</span>
+                            <span class="skill-tag">Kubernetes (Basic)</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Maven</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">IntelliJ IDEA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Banking Transaction Management System</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JPA</span>
+                                <span class="tech-tag">Spring Security</span>
+                            </div>
+                            <div class="project-description">
+                                <ul>
+                                    <li>Secure backend system for deposits, withdrawals, and fund transfers.</li>
+                                    <li>Implemented JWT-based authentication and role-based authorization.</li>
+                                    <li>Designed and exposed 15+ RESTful APIs for account and transaction management.
+                                    </li>
+                                    <li>Ensured ACID compliance using @Transactional and optimized DB schema.</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/pr4531" target="_blank" aria-label="GitHub Repo"><i
+                                        class="fab fa-github"></i> Code</a>
+                                <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">AI-Powered Email Reply Generator</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">Spring AI</span>
+                                <span class="tech-tag">Gemini API</span>
+                                <span class="tech-tag">Chrome Extension</span>
+                            </div>
+                            <div class="project-description">
+                                <ul>
+                                    <li>Generates professional email replies using Google's Gemini API.</li>
+                                    <li>Built REST APIs to process email content and user-defined tone.</li>
+                                    <li>Integrated with a Chrome Extension for seamless user experience.</li>
+                                    <li>Utilized WebClient for efficient external API calls and secure key handling.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/pr4531" target="_blank" aria-label="GitHub Repo"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-title">Certifications & Profiles</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                        <div class="cert-info">
+                            <h3>AWS Cloud Practitioner</h3>
+                            <p>Certification</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="cert-info">
+                            <h3>Palo Alto Cybersecurity</h3>
+                            <p>Virtual Internship</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coding-profiles">
+                    <h3 style="margin-bottom: 20px;">Coding Profiles</h3>
+                    <div class="profiles-grid">
+                        <a href="https://leetcode.com/" target="_blank" class="profile-card">
+                            <i class="fas fa-code"></i>
+                            <span>LeetCode (150+ Solved)</span>
+                        </a>
+                        <a href="https://github.com/pr4531" target="_blank" class="profile-card">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="container contact-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">I'm currently looking for <strong>internship opportunities</strong>. Whether you
+                    have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-options">
+                    <a href="mailto:pr4531926@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>pr4531926@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prince-kumar-4634122aa" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container footer-container">
+            <p>&copy; 2024 Prince Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
